@@ -21,7 +21,11 @@
 
 	position: absolute;
 	float: fixed;
+<<<<<<< HEAD
 	top: 555px;
+=======
+	top: 550px;
+>>>>>>> master
     right: 0px;
 	z-index: 1;
 
@@ -35,16 +39,23 @@
 	
 }
 .info h6 {
+<<<<<<< HEAD
 	font-size: 14px;
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
+=======
+	/*margin: 0 0 5px;*/
+>>>>>>> master
 	color: #bd0026;
 }
 
 
 .info h4 {
 	line-height: 101%;
+<<<<<<< HEAD
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+=======
+>>>>>>> master
 }
 
 .info h1 {
