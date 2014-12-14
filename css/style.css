@@ -21,7 +21,7 @@
 
 	position: absolute;
 	float: fixed;
-	top: 550px;
+	top: 555px;
     right: 0px;
 	z-index: 1;
 
@@ -31,28 +31,32 @@
 .info {
 	width: 180px;
 	padding: 6px 8px;
-	font: 20px/20px Arial, Helvetica, sans-serif;
+	font: 20px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
 .info h6 {
-	/*margin: 0 0 5px;*/
+	font-size: 14px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 	color: #bd0026;
 }
 
 
 .info h4 {
 	line-height: 101%;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .info h1 {
 	font-size: 100px;
 	color:gray;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 
 }
 
 .legend {
-	font: 18px/18px Arial, Helvetica, sans-serif;
+	font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: left;
 	line-height: 25px;
 	color: black;
@@ -63,19 +67,20 @@
 	height: 20px;
 	float: left;
 	margin-right: 12px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
 h1{
-	font-family: HelveticaNeue;
-	margin-top: 25px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 15px;
 	margin-bottom: none;
 	margin-left: none;
-	font-size: 45px;
+	font-size: 38px;
 }
 
-h5{
-	font-family: HelveticaNeue;
+h6{
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	margin-left: none;
 	font-size: 25px;
