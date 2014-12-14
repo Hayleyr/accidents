@@ -18,7 +18,7 @@
 
 		info.update = function (props) {
 			this._div.innerHTML = '<h3>Accidents </b>reported by precint</h3>' 
-			+ '<h4>Hover the map</h4>' + (props ? '<h2><b></h2>' + props.pedestrians2_Crashes + '</b><br />'
+			+ '<h4>Hover the map</h4>' + (props ? '<h2></h2>' + props.pedestrians2_Crashes + '</b><br />'
 
 				+ props.pedestrians2_Borough + props.pedestrians2_Date +' <h2></h2> '
 				: '<h3></h3>');
@@ -53,7 +53,7 @@
 			var layer = e.target;
 
 			layer.setStyle({
-				weight: 5,
+				weight: 2,
 				color: '#666',
 				dashArray: '',
 				fillOpacity: 0.7
