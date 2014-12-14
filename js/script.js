@@ -17,11 +17,12 @@
 		};
 
 		info.update = function (props) {
-			this._div.innerHTML = '<h3>Accidents </b>reported by precint</h3>' 
-			+ '<h4>Hover the map</h4>' + (props ? '<h2></h2>' + props.pedestrians2_Crashes + '</b><br />'
-
-				+ props.pedestrians2_Borough + props.pedestrians2_Date +' <h2></h2> '
-				: '<h3></h3>');
+			this._div.innerHTML = '<h4>(roll over the map)</h4>'
+			 	+ '<h3>accidents reported by precint</h3>' + (props ? 
+				'<b><h1>' + props.pedestrians2_Crashes + '</h1></b><br />'
+				+ props.pedestrians2_Borough + ' '
+				+ props.pedestrians2_Date + ' '
+				: ' ');
 		};
 
 		info.addTo(map);
@@ -116,3 +117,20 @@
 		};
 
 		legend.addTo(map);
+
+
+//slider
+
+$(function() {
+    $( "#slider" ).slider({
+      value:100,
+      min: 2011,
+      max: 2013,
+      step: 1,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "" + ui.value );
+        console.log(ui.value)
+      }
+    });
+    $( "#amount" ).val( "" + $( "#slider" ).slider( "value" ) );
+  });
