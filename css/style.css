@@ -6,7 +6,7 @@
 	float: fixed;
 	top: 0px;
     right: 0px;
-
+    font-family: Helvetica, sans-serif;
 	background: rgba(255, 255, 255, 0.85);
 	z-index: 1;
 	box-sizing: border-box;
@@ -21,11 +21,7 @@
 
 	position: absolute;
 	float: fixed;
-<<<<<<< HEAD
-	top: 555px;
-=======
-	top: 550px;
->>>>>>> master
+	top: 570px;
     right: 0px;
 	z-index: 1;
 
@@ -35,39 +31,33 @@
 .info {
 	width: 180px;
 	padding: 6px 8px;
-	font: 20px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 20px/20px;
+	font-family: Helvetica, sans-serif;
 	
 }
 .info h6 {
-<<<<<<< HEAD
 	font-size: 14px;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	
-=======
-	/*margin: 0 0 5px;*/
->>>>>>> master
 	color: #bd0026;
 }
 
 
 .info h4 {
 	line-height: 101%;
-<<<<<<< HEAD
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-=======
->>>>>>> master
 }
 
 .info h1 {
 	font-size: 100px;
+	font-family: Helvetica, sans-serif;
 	color:gray;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 
 }
 
 .legend {
-	font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 14px;
+	font-family: Helvetica, sans-serif;
 	text-align: left;
 	line-height: 25px;
 	color: black;
@@ -78,20 +68,19 @@
 	height: 20px;
 	float: left;
 	margin-right: 12px;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
 h1{
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	margin-top: 15px;
 	margin-bottom: none;
 	margin-left: none;
-	font-size: 38px;
+	font-size: 35px;
 }
 
 h6{
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
 	margin-left: none;
 	font-size: 25px;
