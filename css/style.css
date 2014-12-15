@@ -77,8 +77,8 @@
 
 h1{
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica;
-	margin-top: 15px;
-	margin-bottom: none;
+	margin-top: 1px;
+	margin-bottom: 0px;
 	margin-left: none;
 	font-size: 35px;
 }
