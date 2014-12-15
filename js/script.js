@@ -1,6 +1,6 @@
 		var map = L.map('map').setView([40.722864, -73.901081], 12);
 
-		L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+		L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 			maxZoom: 18,
 
 		}).addTo(map);
@@ -20,7 +20,7 @@
 			this._div.innerHTML = '<h6>(roll over the map)</h6>'
 			 	+ '<h4>accidents reported by precint</h4>' + (props ? 
 				'<b><h1>' + props.pedestrians2_Crashes + '</h1></b><br />'
-				+ props.pedestrians2_Borough + ' '
+				+ props.pedestrians2_Borough + '    '
 				+ props.pedestrians2_Date + ' '
 				: ' ');
 		};
