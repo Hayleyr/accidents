@@ -18,7 +18,7 @@
 
 		info.update = function (props) {
 			this._div.innerHTML = '<h6>(roll over the map)</h6>'
-			 	+ '<h4>accidents reported by precint</h4>' + (props ? 
+			 	+ '<h4>accidents reported by precinct</h4>' + (props ? 
 				'<b><h1>' + props.pedestrians2_Crashes + '</h1></b><br />'
 				+ props.pedestrians2_Borough + '    '
 				+ props.pedestrians2_Date + ' '
