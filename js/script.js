@@ -101,7 +101,7 @@ geojson = L.geoJson(bikeData, {
 
 // map attributions
 
-map.attributionControl.addAttribution('Chroplet tutorial example');
+map.attributionControl.addAttribution('Based on Leaflet chroplet tutorial');
 
 //legend box
 

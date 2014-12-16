@@ -128,9 +128,16 @@ h6{
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica;
 	font-weight: lighter;
 	margin-left: none;
+	margin-bottom: 0px;
 	font-size: 12px;
 }
 
 p{
 	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h5{
+	margin-bottom: 0px;
+
 }
