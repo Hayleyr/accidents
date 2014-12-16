@@ -17,10 +17,10 @@
 
 
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 	<link rel="stylesheet" href="css/base.css" />
 	<link rel="stylesheet" href="css/skeleton.css" />
 	<link rel="stylesheet" href="css/style.css" />
+
 
 </head>
 <body>
@@ -31,7 +31,7 @@
   <div class="container">
   <div class="two columns alpha"><img src="img/logo.png"></div>
 		<h1>Bike Accidents in NYC</h1>
-		<div id="deck" class= "seven columns alpha "> <h4>pedestrian and bicycle crashes in the city</h4> </div>
+		<div id="deck" class= "seven columns alpha "> <h4>Pedestrian and bicycle crashes in the city</h4> </div>
 
 		<!-- <div id="slider" class="four columns omega" ></div>	 -->
 
@@ -41,28 +41,24 @@
 
 
 		</div> 
-	<br>
-	<div id="deck" class= "two columns alpha "> <h5>choose year</h5> </div>
-	<form>
-	  <div id="radio" class= "six columns alpha ">
-	    <input type="radio" id="radio1" name="radio"><label for="radio1">2011</label>
-	    <input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">2012</label>
-	    <input type="radio" id="radio3" name="radio"><label for="radio3">2013</label>
-	  </div>
-	</form>	
-
-			
-
+		<br>
+		<div class="sixteen columns alpha">
+			<h5>Bicycle crash-related contributing factors</h5>
+			<p>Among the top factors attributed to accidents; bicyclists crossing into a vehicle path accounted for 84% of the total of accidents.</p>
 	
-
+			<svg id="visualisation" width="900" height="0" ></svg>
+			</div>
+		<div id "source" class="three columns alpha" >
+			<p><h6>Sources:</h6></p>
 			
-			
+		</div>
+		
+		</div>
 
 
 
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script type="text/javascript" src="js/us-states2012.js"></script>
 	<script src="js/script.js"></script> 
